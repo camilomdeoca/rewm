@@ -1,0 +1,37 @@
+###############
+# Config file #
+###############
+
+font = "monospace:style=Medium:size=10"
+foreground = "#dddddd"
+
+sloppy_focus = true
+
+[workspace]
+    names = ["term", "web", "code", "chat", "game", "read", "7", "8", "9"]
+
+[tasklist]
+    button_width = 100
+    padding_width = 3
+
+[window]
+    [window.colors]
+        # #RRGGBBAA
+        normal_overlay = "#00000000"
+        hovered_overlay = "#ffffff10"
+        shine = "#ffffff44"
+        shadow = "#00000055"
+        medium = "#50505033"
+        light_shine = "#ffffff88"
+        dark_shadow = "#00000090"
+
+   [window.border]
+        size = 4
+        bevel_size = 1
+        corner_size = 29
+    [window.titlebar]
+        height = 25
+    [window.animation]
+        draw_rectangle_on_move = true
+        rectangle_line_width = 3
+
